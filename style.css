@@ -1,0 +1,50 @@
+body {
+	background-color :#ECD4EA;
+	margin:0;
+}
+.cabecera{
+	background:#693B69;
+	height:75px;
+	text-align: center
+}
+.cabecera h1{
+	margin: 0;
+	color: #ECD4EA;
+	padding-top:15px;
+	
+}
+.contenedor{
+	display : flex;
+	height:87.5vh;
+	
+}
+.content {
+	background:#ECD4EA;
+	color:#693B69;
+	width:75%;
+	padding:15px;
+}
+.Menu{
+	background:#A987A8;
+	width:20%
+}
+ul li{
+	font-size: 20px;
+	color:black;
+	padding-top:10px;
+	padding-bottom:15px
+}
+ul li a {
+	text-decoration:none;
+	color: #ECD4EA
+}
+ul li :hover{
+	color:#693B69;
+}
+.active a {
+	color:#693B69;
+	
+}
+ul{
+	list-style:none;
+}
